@@ -330,12 +330,82 @@
           play.The game has many rules that </p>
       </div>
       <!-- touch container === -->
-      <div>
-        <div>
+      <div class="flex flex-col md:flex-row-reverse justify-center gap-8 pt-7">
 
+        <!-- input section  -->
+        <div class=" flex-1 ">
+
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-7">
+            <div>
+              <span class="label-text font-extrabold text-xl ">Your Name</span><br>
+              <input type="text" placeholder="Enter your full name" class="input w-full bg-[#F3F3F3]" />
+            </div>
+            <div>
+              <span class="label-text font-extrabold text-xl ">Your Email</span><br>
+              <input type="email" placeholder="Enter Your Email" class="input w-full  bg-[#F3F3F3]"" />
+            </div>
+            <div>
+              <span class=" label-text font-extrabold text-xl ">Subject</span><br>
+              <input type=" text" placeholder="Enter Your Subject" class="input w-full  bg-[#F3F3F3]"" />
+             </div>
+            <div >
+              <span class=" label-text font-extrabold text-xl">Phone Number</span><br>
+              <input type=" number" placeholder="Enter your Phone Number" class="input w-full  bg-[#F3F3F3]"" />
+            </div>
+            <div class=" lg:col-span-2">
+              <span class=" label-text font-extrabold text-xl pt-5 ">Message</span><br>
+              <textarea class=" textarea w-full bg-[#F3F3F3] h-[70vh]
+                mt-0" placeholder=" Write your Message"></textarea>
+            </div>
+          </div>
+
+
+          <button class="btn btn-wide bg-[#FF4240] w-full text-white mt-8">Send Message</button>
         </div>
-        <div>
 
+
+        <!-- card container=== -->
+
+        <div class=" border-2 border-neutral-200 rounded-xl p-10  ">
+          <div class="grid grid-cols-1 gap-7 ">
+            <!-- card 1 -->
+            <div class="  lg:w-[60vh] bg-base-100 bg-[#BCED6D1A]  rounded-xl p-7 ">
+              <figure class="">
+                <img src="/images/Group 1171275317.png" alt="Shoes" class="rounded-none my-6" />
+              </figure>
+              <div class=" ">
+                <h2 class="card-title  EB-Garamond text-sm  text-[#13131866] my-4">Phone Number :</h2>
+                <p class="  text-[#131318] text-sm font-extrabold">(+62) 123-321-543</p>
+
+              </div>
+
+            </div>
+            <!-- card 2  -->
+            <div class=" lg:w-[60vh] bg-base-100 bg-[#FDDD5F1A]  rounded-xl p-7 ">
+              <figure class="">
+                <img src="/images/Group 1171275318.png" alt="Shoes" class="rounded-none my-6" />
+              </figure>
+              <div class=" ">
+                <h2 class="card-title  EB-Garamond text-sm  text-[#13131866] my-4">Email :</h2>
+                <p class="  text-[#131318] text-sm font-extrabold">samratuap52@gmail.com</p>
+
+              </div>
+
+            </div>
+            <!-- card 3 -->
+            <div class=" lg:w-[60vh] bg-base-100 bg-[#629CF31A]  rounded-xl p-7 ">
+              <figure class="">
+                <img src="/images/Group 1171275321.png" alt="Shoes" class="rounded-none my-6" />
+              </figure>
+              <div class=" ">
+                <h2 class="card-title  EB-Garamond text-sm  text-[#13131866] my-4">Location :</h2>
+                <p class="  text-[#131318] text-sm font-extrabold">152/1 Mohakhali Wireless Gate</p>
+
+              </div>
+
+            </div>
+
+          </div>
         </div>
       </div>
 
